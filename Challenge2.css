@@ -26,6 +26,7 @@ body {
 .header h1 {
     display: inline-flexbox;
     font-size: 70px;
+    color: var(--text-HeadC2);
 }
 
 .header div {
