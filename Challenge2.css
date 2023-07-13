@@ -70,36 +70,43 @@ p {
     float: left;
     font-size: 50px;
     font-family: var(--fontF2);
-    position: fixed; top: 425px; 
+    position:absolute; top: 425px; 
     color: var(--nav-bar)
 }
 
 .Works {
-    float: right;
-    font-size: 40px;
-    font-family: var(--fontF2);
-    color: var(--nav-bar)
+    margin-top: 50px;
+    padding: 0px;
+    float:left;
+    font-size:40px;
+    font-family:var(--fontF2);
+    color:var(--nav-bar);
 }
 
 .Resume {
+    margin-top: 100px;
     float: left;
-    font-size: 40px;
+    font-size: 50px;
     font-family: var(--fontF2);
-    color: var(--nav-bar)
+    color: var(--nav-bar);
 }
 
 .Contact-Me {
+    margin-top: 200px;
+    padding: 200px;
+    clear: both;
     float: left;
     font-size: 40px;
     font-family: var(--fontF2);
-    color: var(--nav-bar)
+    color: var(--nav-bar);
 }
 
 .footer {
-    padding: 60px;
+    padding: 10px;
     font-size: 5px;
     clear: both;
     text-align: center;
     font-family: var(--fontF2);
-    color: var(--nav-bar)
+    position: absolute: 10px;
+    color: var(--nav-bar);
 }
